@@ -17,8 +17,21 @@ class Mobile:
         print("We can see HD Content")
 
     def Wifi(self):
-        self.Speed = "20 mp/s"
+        self.Speed = "40 mp/s"
         print(f"Wifi is working: Speed: {self.Speed}")
+
+    def Calculator(self):
+        def add():
+            print("Adding")
+        
+        def sub():
+            print("Subtracting")
+        
+        def mul():
+            print("Multiplying")
+
+        def div():
+            print("Diving")
     
 obj1 = Mobile("Samsung", "S20", "12/12/2005", "Red")
 
