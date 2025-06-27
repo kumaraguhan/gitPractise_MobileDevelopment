@@ -15,6 +15,10 @@ class Mobile:
 
     def HD_Display(self):
         print("We can see HD Content")
+
+    def Wifi(self):
+        self.Speed = "20 mp/s"
+        print(f"Wifi is working: Speed: {self.Speed}")
     
 obj1 = Mobile("Samsung", "S20", "12/12/2005", "Red")
 
