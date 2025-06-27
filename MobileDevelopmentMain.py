@@ -6,7 +6,7 @@ class Mobile:
         self.Color = Color
     
     def Camera(self):
-        self.camera_MP = 2
+        self.camera_MP = 10
         print("Camera is Working")
     
     def Call(self):
