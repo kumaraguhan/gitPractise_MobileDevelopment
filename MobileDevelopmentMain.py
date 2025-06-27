@@ -11,7 +11,7 @@ class Mobile:
     
     def Call(self):
         self.call_Quality = 0
-        print("Call function is not working")
+        print("Call function is working")
     
 obj1 = Mobile("Samsung", "S20", "12/12/2005", "Red")
 
