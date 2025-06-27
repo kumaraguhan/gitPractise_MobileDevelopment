@@ -10,7 +10,7 @@ class Mobile:
         print("Camera is Working")
     
     def Call(self):
-        self.call_Quality = 0
+        self.call_Quality = 10
         print("Call function is working")
 
     def HD_Display(self):
@@ -46,3 +46,4 @@ print(obj1.camera_MP)
 # Need Mobile Class to have WiFi Option
 # Need Mobile Class to have Calculator Options
 # Need Camera to get Upgraded upto 10 MP
+# Need to Make Call Quaity to 10
