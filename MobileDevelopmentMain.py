@@ -17,7 +17,7 @@ class Mobile:
         print("We can see HD Content")
 
     def Wifi(self):
-        self.Speed = "20 mp/s"
+        self.Speed = "40 mp/s"
         print(f"Wifi is working: Speed: {self.Speed}")
 
     def Calculator(self):
