@@ -12,6 +12,9 @@ class Mobile:
     def Call(self):
         self.call_Quality = 0
         print("Call function is working")
+
+    def HD_Display(self):
+        print("We can see HD Content")
     
 obj1 = Mobile("Samsung", "S20", "12/12/2005", "Red")
 
